@@ -1,4 +1,4 @@
-![](assets/20220621_095830_HelloWorld_difft.JPG)
+
 
 # First Demo
 
@@ -11,3 +11,5 @@ vs
 ```
 diff -u sample_files/java_before.java sample_files/java_after.java
 ```
+
+![](../assets/20220621_095830_HelloWorld_difft.JPG)
