@@ -1,14 +1,21 @@
 class Foo {
   /**
-   * define letter
+   * define names
    */
-  public String letter() {
+  public Object getNames() {
       var ret = ["Alexander", "Berta", "Charly",
                  "Daniel", "Emma", "Günther",
                  "Heinrich", "Inge", "Jochen",
-                 "Karl", "Leon", "Martha", "Nicole",
-                 "Otto", "Paul", ""];
-      
-      retunr ret;
+                 "Karl", "Leon", "Martha",
+                 "Nicole", "Otto", "Paul",
+                 "Qundulin", "Ralph", "sascha",
+                 "Theodor", "Ulrich", "Victor",
+                 "Walter", "Xavir", "Yspilon",
+                 "Zuse"];
+
+                 
+
+
+      return  ret;
   }
 }
