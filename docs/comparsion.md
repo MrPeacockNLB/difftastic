@@ -45,3 +45,47 @@ sample_files/java_after.java --- Java
 ```
 
 # Demo 2
+
+```bash
+diff -u docs/samples/java_2_before.java docs/samples/java_2_after.java 
+--- docs/samples/java_2_before.java     2022-06-22 08:23:40.166756006 +0000
++++ docs/samples/java_2_after.java      2022-06-22 08:22:28.670820020 +0000
+@@ -3,12 +3,12 @@
+    * define letter
+    */
+   public String letter() {
+-      return """           
+-         ____  
+-        |  _ \ 
+-        | |_) |
+-        |  _ < 
+-        | |_) |
+-        |____/ """;
++    return """           
++       ____  
++      |  _ \ 
++      | |_) |
++      |  _ < 
++      | |_) |
++      |____/ """;
+   }
+ }
+\ No newline at end of file
+```
+
+```bash
+target/debug/difft docs/samples/java_2_before.java docs/samples/java_2_after.java
+docs/samples/java_2_after.java --- Java
+ 3    * define letter                                                                             3    * define letter
+ 4    */                                                                                          4    */
+ 5   public String letter() {                                                                     5   public String letter() {
+ 6       return """                                                                               6     return """           
+ 7          ____                                                                                  7        ____  
+ 8         |  _ \                                                                                 8       |  _ \ 
+ 9         | |_) |                                                                                9       | |_) |
+10         |  _ <                                                                                10       |  _ < 
+11         | |_) |                                                                               11       | |_) |
+12         |____/ """;                                                                           12       |____/ """;
+13   }                                                                                           13   }
+14 }                                                                                             14 }
+```
