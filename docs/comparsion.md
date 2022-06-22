@@ -1,6 +1,6 @@
 # Comparsion DiffTastic vs. unified Diff
 
-In diesem Dokument möchte ich die Quellen für die Slide
+In diesem Dokument möchte ich die Quellen für die Slides für die Entwickler Gilde festhalten.
 
 # Demo 1
 
